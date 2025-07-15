@@ -31,3 +31,16 @@ layout: default
     </div>
   </div>
 </div>
+<div class="row g-5 mb-5">
+  <div class="col-md-2">
+    <h4><a href="/cryptozoology/publications/2025.02.14 CV_JSHEN_GH">Full CV</a></h4>
+  </div>
+  <div class="col-md-10">
+    {% for section in site.data.cv.academic-experience %}
+      <p class="fw-bold">{{ section.title }}</p>
+      <p>{{ section.description }}</p>
+    {% endfor %}
+  </div>
+</div>
+</div>
+</div>

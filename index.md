@@ -4,9 +4,9 @@ title: "Home"
 ---
 
 UN JOUR JE SERAI DE RETOUR PRÈS DE TOI
-{: style="color:gray; font-size: 80%; text-align: center;"}
-One day I will return to your side
-{: style="color:gray; font-size: 60%; text-align: center;"}
+{: style="color:gray; font-size: 80%; text-align: left;"}
+*One day I will return to your side.*
+{: style="color:gray; font-size: 60%; text-align: left;"}
 
 Hi! I'm Jess, a PhD student at the University of Toronto. I mainly wrangle big data, and write spaghetti code to get things done (and then suffer the consequences later). 
 
