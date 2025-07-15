@@ -1,6 +1,10 @@
-# academic
+# Cryptozoologist
 
-### A Jekyll theme for academia
+### **You:** Where does this come from? All this? Around us? The world?
+\
+\
+### **Insulindian Phasmid:** Not even the birds know that. Not even the water lilies.
+
 
 ![Academic Screenshot](https://raw.githubusercontent.com/LeNPaul/academic/gh-pages/screenshot.png)
 
