@@ -5,4 +5,4 @@ title: "Coming Soon"
 
 #### Course Information
 
-[Course Outline](glorp.jpg)
+[Course Outline](https://syueqiao.github.io/cryptozoology/courses/coming-soon/glorp.jpg)
