@@ -6,9 +6,8 @@ menu:
 - {name: 'misc', url: '/misc'}
 
 courses:
-- {name: 'Vector Calculus', url: 'vector-calculus'}
-- {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
-- {name: 'Stellar Structures', url: 'stellar-structures'}
+- {name: 'Coming Soon', url: 'coming-soon'}
+
 
 social:
 - {icon: 'github', link: 'https://github.com/syueqiao'}
