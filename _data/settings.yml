@@ -3,7 +3,7 @@ menu:
 - {name: 'courses', url: '/courses'}
 - {name: 'cv', url: '/cv'}
 - {name: 'contact', url: '/contact'}
-- {name: 'science', url: '/science'}
+- {name: 'science', url: '/science/index.html'}
 - {name: 'misc', url: '/misc'}
 
 courses:
@@ -22,3 +22,8 @@ social:
 
 contacts:
 - {name: 'Jessica Shen', title: 'PhD Student', department: 'Molecular Genetics', institution: 'University of Toronto', email: 'jessicayq.shen[at]mail.utoronto.ca', office: 'Under a mossy rock', image: 'assets/img/contact.jpg'}
+
+# Customize site text
+pagination:
+  next_page: 'Newer'
+  previous_page: 'Older'
