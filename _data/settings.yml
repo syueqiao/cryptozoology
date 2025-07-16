@@ -10,7 +10,7 @@ courses:
 - {name: 'Coming Soon', url: 'coming-soon'}
 
 science:
-- {name: 'Coming Soon', url: 'coming-soon'}
+- {name: 'Small Projects', url: '/science'}
 
 misc:
 - {name: 'Coming Soon', url: 'coming-soon'}
