@@ -1,6 +1,6 @@
 ---
-layout: courses
-title: "Misc"
+layout: default
+title: "Science"
 ---
 
 Coming Soon
