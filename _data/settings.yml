@@ -9,6 +9,12 @@ menu:
 courses:
 - {name: 'Coming Soon', url: 'coming-soon'}
 
+science:
+- {name: 'Coming Soon', url: 'coming-soon'}
+
+misc:
+- {name: 'Coming Soon', url: 'coming-soon'}
+
 
 social:
 - {icon: 'github', link: 'https://github.com/syueqiao'}
