@@ -29,3 +29,7 @@ layout: default
     {{ site.author }}
   {% endif %}
 </span>
+
+{% if site.data.settings.disqus.comments %}
+  {% include disqus.html %}
+{% endif %}
