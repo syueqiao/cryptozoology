@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: default
 title: "Coming Soon"
 ---
 
 #### Coming Soon
 
-[Coming Soon](https://syueqiao.github.io/cryptozoology/courses/coming-soon/glorp.jpg)
+[Coming Soon](https://syueqiao.github.io/cryptozoology/misc/coming-soon/glorp.jpg)
