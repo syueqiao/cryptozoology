@@ -28,9 +28,12 @@ This is not so much of an issue in DNA sequencing libraries, where the dsDNA gen
 <p align="center">
   <img src="{{ site.github.url }}/assets/img/pvs_el1.png" width="500"/>
 </p>
+
+Another representation:
+
 <p align="middle">
- <img src="{{ site.github.url }}/assets/img/pvs_el2.png" width="300"/>
-        <img src="{{ site.github.url }}/assets/img/pvs_el3.png" width="300"/>
+  <img src="{{ site.github.url }}/assets/img/pvs_el2.png" width="300" />
+  <img src="{{ site.github.url }}/assets/img/pvs_el3.png" width="300 /> 
 </p>
 
 So, how do you then characterize these orphan genes? I suppose it doesnt really matter in the grander picture of recording diversity, but it is important from the perspective of: "If we see one of these orphan sequences, what are the chances that it belongs to the equivalent of a new species (and thus represents some new diveristy that had not previously been described)?". Especially pertinent in the type of testing that we are doing now, which is synthesizing some of these early genes and testing them for tumor potential. How do we know that we are capturing the entire diversity of these genes present in PV species?
@@ -55,8 +58,8 @@ I investigated this, looking at the unusual group there. As each point is a comp
 To do that, I compared the distribution of libraries (e.g., a, b, c, d, e...) over the entire scatterplot. To interpret this, think of each bar below as a representation of how many libraries show up X amount of times. For example, over the entire plot, the majority of libraries show up 800 times (as components of comparisons). If you plot only the cluster of interest, most terms only show up \<100 times, while a small subset show up \>600 times. These highly “prevalent” terms/libraries, are the likely the ones that are contributing to the cluster (e.g., **a**-b, **a**-c, **a**-d, **a**-e).
 
 <p float="center">
-  <img src="{{ site.github.url }}/assets/img/pvs_cluster.png" width="500" />
-  <img src="{{ site.github.url }}/assets/img/pvs_all.png" width="500" /> 
+  <img src="{{ site.github.url }}/assets/img/pvs_cluster.png" width="300" />
+  <img src="{{ site.github.url }}/assets/img/pvs_all.png" width="300" /> 
 </p>
 
 Generating a reference phylogenetic tree of E6 and L1 amino acids, clustering to reduce redundancy, and annotating the location of these prevalent terms, they are located in the tree and closely related. These libraries are annotated to be from a subway metagenome, and two vaginal swabs (so thankfully not an artifact of amplicon sequencing). BLASTP searches of this cluster show up consistently as HPV 91. It seems that HPV 91 specifically has a more diverged E6 compared to the rest of the PVs I looked at. Interesting.
