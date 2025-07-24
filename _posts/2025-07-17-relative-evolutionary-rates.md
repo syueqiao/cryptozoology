@@ -4,7 +4,6 @@ title: "Evolutionary Mismatches"
 author: "JS"
 categories: science
 tags: []
-image: pvs_evo.png
 ---
 ### A fun little "side" project
 
@@ -14,11 +13,11 @@ Often, there are discussions around what is the best way to create a phylogeny t
 Viruses, especially small ones, are great to work with from a bioinformatics standpoint - genomes are not insanely large, minimizing complexity/computational resources, and are widely available in sequencing data etc. My thesis revolves around one of these viruses - the _Papillomaviridae_ (PV) family to be precise - using them as a sort of pilot experiment for [Logan](https://github.com/IndexThePlanet/Logan). 
 \
 \
-In the PV field, species are demarcated by their L1 gene, which codes for the major capside protein. This gene is quite nice as far as marker genes go, as they are composed of high conserved, common structures. Hence, I have been using this gene to do my accounting of PV diversity - if something is more than 10% different in terms of nucleic acid identities, then it counts as a new "species", as classically considered in the field - or at least creates an arbitrary unit in which to compare everything against evenly. [add image of JR]
+In the PV field, species are demarcated by their L1 gene, which codes for the major capside protein. This gene is quite nice as far as marker genes go, as they are composed of high conserved, common structures. Hence, I have been using this gene to do my accounting of PV diversity - if something is more than 10% different in terms of nucleic acid identities, then it counts as a new "species", as classically considered in the field - or at least creates an arbitrary unit in which to compare everything against evenly.
 \
-<p align="center">
-  <img src="https://github.com/syueqiao/cryptozoology/blob/main/assets/img/pvs_jr.png" />
-</p>
+<div style="text-align: center;">
+<img src="https://github.com/syueqiao/cryptozoology/blob/main/assets/img/pvs_jr.png" width="100">
+</div>
 \
 This works great, in the case where a full genome, or at least the L1 + some other gene of interest is found, as it creates an anchor to which you can "assign" these sequences to. However, real life is not quite as neat, and you get cases of "no L1 + lots of other genes". This is likely due to the biological quirks of this virus, as the expression of each gene is highly temporally controlled throughout it's replication cycle. 
 \
