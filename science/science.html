@@ -3,4 +3,6 @@ layout: science
 title: Science
 ---
 
-<a href="{{ site.github.url }}{% link /science/2025/07/17/relative-evolutionary-rates.html %}">2025.07.17 Relative Evolutionary Rates</a>
+{% for post in site.posts %}
+      <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
+    {% endfor %}
