@@ -33,7 +33,7 @@ Another representation:
 
 <p align="middle">
   <img src="{{ site.github.url }}/assets/img/pvs_el2.png" width="300" />
-  <img src="{{ site.github.url }}/assets/img/pvs_el3.png" width="300 /> 
+  <img src="{{ site.github.url }}/assets/img/pvs_el3.png" width="300" /> 
 </p>
 
 So, how do you then characterize these orphan genes? I suppose it doesnt really matter in the grander picture of recording diversity, but it is important from the perspective of: "If we see one of these orphan sequences, what are the chances that it belongs to the equivalent of a new species (and thus represents some new diveristy that had not previously been described)?". Especially pertinent in the type of testing that we are doing now, which is synthesizing some of these early genes and testing them for tumor potential. How do we know that we are capturing the entire diversity of these genes present in PV species?
