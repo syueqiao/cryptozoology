@@ -28,7 +28,7 @@ This is not so much of an issue in DNA sequencing libraries, where the dsDNA gen
 <p align="center">
   <img src="{{ site.github.url }}/assets/img/pvs_el1.png" width="500"/>
 </p>
-<p float="center">
+<p align="middle">
  <img src="{{ site.github.url }}/assets/img/pvs_el2.png" width="300"/>
         <img src="{{ site.github.url }}/assets/img/pvs_el3.png" width="300"/>
 </p>
@@ -39,7 +39,7 @@ The idea is to first capture the expected diversity of these early genes expecte
 
 This then provides a rough solution to the problem. If we find a E6 gene with 6 amino acid substituions compared to all other known ones, then we can assume that this E6 belongs to a new species that we don't have the information on. This can be done on large scale, essentially comparing all L1s against all E6s and generating a rate of evolution, as such.
 
-<p float="left">
+<p align="middle">
   <img src="{{ site.github.url }}/assets/img/pid_L1_pid_E6.png" width="300" />
   <img src="{{ site.github.url }}/assets/img/pid_L1_pid_E7.png" width="300" /> 
 </p>
