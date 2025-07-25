@@ -4,5 +4,6 @@ title: Science
 ---
 
 {% for sci_post in site.science %}
-<p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a></p> - {{ post.date | date: "%B %-d, %Y" }}</p>
-    {% endfor %}
+<p><a href="{{ site.github.url }}/{{ sci_post.url }}">{{ sci_post.title }}</a> - {{ sci_post.date | date: "%B %-d, %Y" }}</p>
+<p>{{ sci_post.content }}</p>
+{% endfor %}

@@ -3,6 +3,6 @@ layout: science
 title: Misc.
 ---
 
-{% for post in site.posts %}
-      <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
+{% for misc in site.misc %}
+      <p><a href="{{ site.github.url }}/{{ misc.url }}">{{ misc.title }}</a> - {{ misc.date | date: "%B %-d, %Y" }}</p>
     {% endfor %}
