@@ -2,3 +2,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Cryptozoology" # the name of your site, e.g. ACME Corp.
 description: "<b>You:</b> Where does this come from? All this?<br>Around us? The world?"
+
+collections:
+  science:
+    output: true
+    permalink: /:collection/:name
+  misc:
+    output: true
+    permalink: /:collection/:name
