@@ -1,0 +1,8 @@
+---
+layout: science
+title: Misc.
+---
+
+{% for misc in site.misc %}
+      <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
+    {% endfor %}

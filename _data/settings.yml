@@ -4,7 +4,7 @@ menu:
 - {name: 'cv', url: '/cv'}
 - {name: 'contact', url: '/contact'}
 - {name: 'science', url: '/science/science.html'}
-- {name: 'misc', url: '/misc'}
+- {name: 'misc', url: '/misc/misc.html'}
 
 courses:
 - {name: 'Coming Soon', url: 'coming-soon'}
@@ -13,7 +13,7 @@ science:
 - {name: 'Small Projects', url: '/science'}
 
 misc:
-- {name: 'Coming Soon', url: 'coming-soon'}
+- {name: 'Misc.', url: '/misc'}
 
 
 social:
