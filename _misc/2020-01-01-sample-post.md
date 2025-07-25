@@ -4,6 +4,5 @@ title: "Test Post"
 author: "JS"
 categories: science
 tags: []
-image: home.jpg
 ---
-yo!
+yo! this is a test
