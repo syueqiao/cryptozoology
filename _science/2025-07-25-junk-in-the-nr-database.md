@@ -24,7 +24,7 @@ Most of the time, what I found was a ton of human genome integration sites - thi
 
 But some of the time, there were some interesting things!
 
-### $\color{battleshipgrey}{\textit{Part 1: Bacteria in the bovine}}$
+### <font color="grey"><i>Part 1: Bacteria in the bovine</i></font>
 
 One of those was an entry in the BLASTnr database (Acc: AB331651), of the E1 replication protein of a bovine papillomavirus. Upon investigation of "hotspots" (using a slightly different visualization method because I was in a rush), you can see that the green circled sequence has a lot more alignments (represented as dots here) compared to the rest of it's brethren, except for MZ189188. That one is a proviral integration site study.
 
@@ -76,7 +76,7 @@ To add injury to insult, no other BPV 10 sequences on NCBI have this second doma
 
 In conclusion: This is likely some technical error, or one off event, that was captured by the folks who sequenced AB331651. Since this is the reference BPV10 genome referenced on PaVE, it should probably be remedied, or revisited for posterities sake (I emailed the submitters, but did not receive a response).
 
-### <font color="grey">Part 2: Mosaics in the murine</font>
+### <font color="grey"><i>Part 2: Mosaics in the murine</i></font>
 
 This one was a bit more serendipitous - in the small 3400 accession test set that was used above to look at hotspots, I was interested in seeing if we could get any longer hits. Nothing was a full length L1, and no contigs were \>2kb, except for a single one, which drew my attention. This sequence was from library SRR830310, a mouse [ChIP-seq](https://emea.illumina.com/techniques/sequencing/dna-sequencing/chip-seq.html) library, rather unexpectedly. It's not impossible that say, there was some slight contamination that resulted in this being assembled, but even the [STAT](https://www.ncbi.nlm.nih.gov/sra/docs/sra-taxonomy-analysis-tool/) analysis is able to identify there are PV sequences there, meaning that there is a significant amount of reads in there of PV origin.
 
@@ -99,7 +99,7 @@ There was also a contig ```SRR830327_9```, that contained almost a complete PV g
 
 To try to get some more context, I reassembled some of these libraries with SPAdes, and got a circular contig that has all the PV genes on the same contig as expected plasmid vector elements - some other summaries below:
 
-
+<br/><br/>
 
 | CONTIG NAME_LIBRARY | CONTAINS (BLASTp, not comprehensive) |
 | ------------- | ------------- |
@@ -109,7 +109,7 @@ To try to get some more context, I reassembled some of these libraries with SPAd
 |NODE_2_length_7132_cov_13.870686_SRR830297 | BPV1 L1, L2, E1, E2, E4, E5, E6, E7, E8, MMTV Sag |
 |NODE_1_length_8730_cov_9.754858_SRR830298 |  BPV1 L1, L2, E1, E2, E4, E5, E6, E7, E8, MMTV Sag, Tet resistance MFS murine transforming protein p21 |
 
-
+<br/><br/>
 
 > n \> 1!
 
