@@ -5,14 +5,15 @@ author: "JS"
 categories: science
 tags: []
 ---
-### (spoilers) You can!
-### <font color="grey"><i>This is a post that will be adapted for the Wiki of my lab sometime in the near future.</i></font>
+#### (spoilers) You can!
+##### <font color="grey"><i>This is a post that will be adapted for the Wiki of my lab sometime in the near future.</i></font>
 
 The most common question I get during the start of the new year from bright-eyed soon-to-be graduate students is: "I only have wet lab experience, is it possible for me to do good work in a dry lab?". My short answer is always "Yes!", and this is applicable to any squishy wet lab biologists reading this right now as well. 
 
 I feel like I have a certain level of qualification to talk about this subject, as I am pretty much as described above. My bachelor's degree was almost entirely wet lab based, learning for example, the both the theory behind and applying hands-on PCR and cloning. The only true formal experience I had learning coding was about 8 different "here's a barebones introduction to R/Unix" at the beginning of various classes. I think I checked out around the 3rd time I had the same tutorial (load packages, assign variables yada yada). That's not to say that these classes were not useful - they are useful if you have very minimal coding experience and are just starting out. But, to actually really learn to do bioinformatics well is a whole 'nother beast. 
 
 ### So, how to get a few steps further than basic tutorials?
+
 
 The main piece of advice I give here is **do a project**. Find a question you are interested in, no matter how trivial and just go and try to figure it out. This is sometimes hard if you're not used to the loop of scientific thinking, but a few things off the top of my head that I would investigate if I had the capacity to: **1)** Using a tool like [logan-search](https://logan-search.org/dashboard), has the genetic sequence of salmon viruses (or insert your system of interest) changed over the last 2 decades, or where they appear geographically? Can you track the introduction of viruses in and out of certain oceans? **2)** [This paper](https://www.anantsudarshan.com/uploads/1/0/2/6/10267789/vultures_manuscript-2023.pdf) provides a solid starting hypothesis, of given a certain geographical area, can you track changes in beneficial bacteria or pathogenic ones? **3)** Using [Serratus](serratus.io), characterize a novel virus using all available information. These are just some simple examples, but you should really pursue something you are interested in (and to be honest, the above are probably a bit complicated to start with but I digress). 
 
@@ -25,7 +26,7 @@ In my opinion, the most important thing now is to really get to know what you ar
 There are a lot of file formats and terms in bioinformatics that documentation will just expect you to know, so hopefully my candid descriptions here help in that aspect.
 
 #### <i>File formats</i>
-#### <font color="grey"><i>FASTA</i></font>
+##### <font color="grey"><i>FASTA</i></font>
 
 In bioinformatics, you're most often working with, at a fundamental level, sequencing data in some kind of FASTA format. It is imperative that whenever you work with sequencing data you understand where it is coming from. A metagenomic versus genomic versus transcriptomic sequencing library will tell you very different things about what you are looking at and if it is important or not. You should also know _how_ the data is generated, roughly anyways. PolyA enrichment? PCR amplification beforehand? etc.
 
@@ -35,7 +36,7 @@ An extension of the FASTA is an multiple sequence alignment (MSA). Wikipedia has
 
 A bit less common in my work are [SAM/BAM files](https://learn.gencore.bio.nyu.edu/ngs-file-formats/sambam-format/) - but good to know about the existence of in general.
 
-#### <font color="grey"><i>Tables, lots of tables (blastfmt6s, domtbls)</i></font>
+##### <font color="grey"><i>Tables, lots of tables (blastfmt6s, domtbls)</i></font>
 
 There are two major table formats that I work with almost daily - the BLAST 6 format (sometimes blast6fmt, blast6, blast6out....), and the HMMER domtbl (domain table). Sometimes headers won't be included in the outputs, so it is a good idea to roughly know what you are looking at - [this](https://www.metagenomics.wiki/tools/blast/blastn-output-format-6) is a nice resource for understanding blastfmt6 from the metagenomics wiki, and you can often set what parameters you want output on your own, so remember to keep track of those. The [HMMER User's Guide](http://eddylab.org/software/hmmer/Userguide.pdf) is pretty much the go-to for anything HMMER related, so refer to that for formats.
 
@@ -80,7 +81,8 @@ Jalview is my go-to for visualizing MSAs (look at the overview window in the Vie
 <details>
 <summary>You can use the macro below in Powerpoint to export some real high quality figures. </summary>
 
-``` Option Explicit
+``` 
+Option Explicit
 
 ' These items govern the export format and resolution
 ' Edit them as needed
@@ -117,8 +119,10 @@ End Sub
 Sub png()
 
 End Sub
+
 ```
 </details>
+
 
 Sometimes, the easiest thing to do is just to throw some data in Excel and call it day. 
 
@@ -128,7 +132,7 @@ This is the part that tends to be the hardest to convey for me - how do you fit 
 
 Overall, my advice here would be to get as far as you can, use _alot_ of Google, and once you start getting to the point where it's become not very productive to sit and stare and think, ask for help. It's a bit of a muscle, and I promise it gets easier with time.
 
-#### <i>More formal classes and learning</i>
+##### <font color="grey"><i>More formal classes and learning</i></font>
 
 Sometimes, a more structured approach works better for learning the very basics. Here are some great, free resources to get started:
 
