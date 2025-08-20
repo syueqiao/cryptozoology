@@ -58,7 +58,7 @@ I do the majority of my analyses in R, especially on tables. I never load R with
 
 A lot of bioinformatics meat lives here. These are the programs that you use to try to answer biological questions. What sequences are similar to other sequences? By how much? Which are new, which are known?
 
-At the most fundamental level, there are the [BLAST-like programs](https://guides.lib.berkeley.edu/ncbi/blast) - know how these work, generally (BLOSUMs). The one most commonly used in my lab is [DIAMOND](https://github.com/bbuchfink/diamond/wiki), for amino acid searches or translated searches against a provided database (either your own, or blastnr). The documentation is pretty solid, so take a read through it at some point before using. DIAMOND is quite a bit faster than the usual blastp search from NCBI toolkits, so I suggest using this when possible. For nucleotide searches, the BLAST command line apps work well see [here](https://www.ncbi.nlm.nih.gov/books/NBK569856/) for documentation. If you are working on the Donnelly Centre cluster, this has already been set up in a shared folder. It will take roughly forever to download and build the database from scratch, so this is not recommended (unless it is super out of date).
+At the most fundamental level, there are the [BLAST-like programs](https://guides.lib.berkeley.edu/ncbi/blast) - know how these work, generally (BLOSUMs). The one most commonly used in my lab is [DIAMOND](https://github.com/bbuchfink/diamond/wiki), for amino acid searches or translated searches against a provided database (either your own, or blastnr). The documentation is pretty solid, so take a read through it at some point before using. DIAMOND is quite a bit faster than the usual blastp search from NCBI toolkits, so I suggest using this when possible. For nucleotide searches, the BLAST command line apps work well, see [here](https://www.ncbi.nlm.nih.gov/books/NBK569856/) for documentation. If you are working on the Donnelly Centre cluster, this has already been set up in a shared folder. It will take roughly forever to download and build the database from scratch, so this is not recommended (unless it is super out of date).
 
 Another iteration of such searches, based on another concept, [hidden Markov models](https://www.ebi.ac.uk/training/online/courses/pfam-creating-protein-families/what-are-profile-hidden-markov-models-hmms/), is a program mentioned above called [HMMER](http://hmmer.org/). The general concept is different from BLAST searches, and they can usually detect things that are a bit more evolutionarily distant. HMMER requires your query sequences, as well as a HMM to search against (e.g., the pattern that you want to find in your queries). The User's Guide has a good tutorial on how it works, but you start with a MSA, and convert to the appropriate format to work with HMMER. Using the same concept of HMMs, the Pfam online tool is quite good for searching through all recorded HMMs of various protein domains, if you want to see what is on an amino acid sequence of interest or identify what it might be.
 
@@ -78,8 +78,7 @@ ggplot2 is my best friend. I would say it is highly worth it to get a basic unde
 
 Jalview is my go-to for visualizing MSAs (look at the overview window in the View tab, change the colors to Taylor, zoom in and out...). There are a few good reasons as to why we visualize MSAs - it gives information on where in the sequences things are conserved (or not conserved), if there are any gaps (e.g., do some sequences have and insertion or deletion compared to the rest), do ends need to be trimmed before generating an HMM? And in general, it is good to look at your data manually to make sure everything looks good!
 
-<details>
-<summary>You can use the macro below in Powerpoint to export some real high quality figures. </summary>
+You can use the macro below in Powerpoint to export some real high quality figures:
 
 ``` 
 Option Explicit
@@ -119,10 +118,7 @@ End Sub
 Sub png()
 
 End Sub
-
 ```
-</details>
-
 
 Sometimes, the easiest thing to do is just to throw some data in Excel and call it day. 
 
