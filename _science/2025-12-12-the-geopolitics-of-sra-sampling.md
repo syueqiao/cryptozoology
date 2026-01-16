@@ -95,11 +95,6 @@ c) What about in biomes? Are certain areas enriched for PVs?
   width="100%"/>
 </p>
 
-<p align="center">
-  <img src="{{ site.github.url }}/assets/img/summed_biomes_colored_long_plot_sampling_pv.png" 
-  width="100%"/>
-</p>
-
 An interesting observation you can do with this data is see if the general trend of PV types follows the sampling density for each of these biomes:
 
 <p align="center">
