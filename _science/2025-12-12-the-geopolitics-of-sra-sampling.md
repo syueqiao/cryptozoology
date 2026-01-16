@@ -39,7 +39,7 @@ There are some issues that separate this ideal, buggy pile of paper from the SRA
 You can see this for yourself here! Visualized as "sampling effort" of every 50km x 50km grid of the earth, based on the number of BioSamples attributed to that square:
 
 <p align="center">
-  <img src="{{ site.github.url }}/assets/img/sampling_world.png" width="1000"/>
+  <img src="{{ site.github.url }}/assets/img/sampling_world.png" width="80%"/>
 </p>
 
 Just this image is pretty cool! For instance, a postdoc in my lab pointed out you can trace some of the major shipping channels, and another collaborator, the gaps where the physical location is inaccessible (like the Himalayas). 
@@ -47,26 +47,26 @@ Just this image is pretty cool! For instance, a postdoc in my lab pointed out yo
 You can also track more granular data, like someone's experiment through the oceans (anecdotal from my supervisor)! This figure also confirms some of the assumptions that we already had - for instance, countries with a lot of money and scientific infrastructure will sequence way more. You can formalize this into a hypothesis and test it: for every grid, is it statistically different from the average of a lot of grids? A p-value can be assigned, and you get this nice map of places that are statistically significantly "over-sampled":
 
 <p align="center">
-  <img src="{{ site.github.url }}/assets/img/p_vals_test.png" width="1000"/>
+  <img src="{{ site.github.url }}/assets/img/p_vals_test.png" width="80%"/>
 </p>
 
 Another fun thing that can be done is assign each 50km x 50km grid to a World Wildlife Foundation determined 'biome using the boundaries:
 
 <p align="center">
-  <img src="{{ site.github.url }}/assets/img/2026.01.12.change_da_world.png" width="2000"/>
+  <img src="{{ site.github.url }}/assets/img/2026.01.12.change_da_world.png" width="80%"/>
 </p>
 
 Then we can show what kind of ecological niches people like to sample (and which we are missing!):
 
 <p align="center">
-  <img src="{{ site.github.url }}/assets/img/2026.01.09.psh.png" width="2000"/>
+  <img src="{{ site.github.url }}/assets/img/2026.01.09.psh.png" width="80%"/>
 </p>
 
 Represented in a different way:
 
 <p align="center">
   <img src="{{ site.github.url }}/assets/img/summed_biomes_colored_long_plot_sampling.png" 
-  width="2000"/>
+  width="80%"/>
 </p>
 
 So it's pretty obvious that because people sample where there is money and infrastructure to sample, we disproportionately have data on "boreal forests" (see The WEIRDest People in the World).
@@ -78,33 +78,33 @@ a) Where are papillomavirus types found?
 
 <p align="center">
   <img src="{{ site.github.url }}/assets/img/2026.01.09geo_data_moll.png" 
-  width="2000"/>
+  width="80%"/>
 </p>
 
 b) Are there regions where, statistically, more novel PV types are sequenced proportionally?
 
 <p align="center">
   <img src="{{ site.github.url }}/assets/img/plot_novel_proportion_2.png" 
-  width="2000"/>
+  width="80%"/>
 </p>
 
 c) What about in biomes? Are certain areas enriched for PVs?
 
 <p align="center">
   <img src="{{ site.github.url }}/assets/img/psh__pv.png" 
-  width="2000"/>
+  width="80%"/>
 </p>
 
 <p align="center">
   <img src="{{ site.github.url }}/assets/img/summed_biomes_colored_long_plot_sampling_pv.png" 
-  width="2000"/>
+  width="80%"/>
 </p>
 
 An interesting observation you can do with this data is see if the general trend of PV types follows the sampling density for each of these biomes:
 
 <p align="center">
   <img src="{{ site.github.url }}/assets/img/summed_biomes_colored_long_plot_sampling_pv.png" 
-  width="2000"/>
+  width="80%"/>
 </p>
 
 d) Are there any unexpected patterns?
@@ -113,33 +113,33 @@ By simply ordering the PVs recorded in the order of sampling, we can see there a
 
 <p align="center">
   <img src="{{ site.github.url }}/assets/img/pv_ordered_sampling.png" 
-  width="2000"/>
+  width="80%"/>
 </p>
 
 This is different from the proportion of novel types, though, probably as a combination of little sampling and people never really looking at certain places for the presence of PVs: 
 
 <p align="center">
   <img src="{{ site.github.url }}/assets/img/2026.01.13.summed_biomes_colored_long_plot_sampling_pv_ordered_grey.png" 
-  width="2000"/>
+  width="80%"/>
 </p>
 
 You can also do a first order approximation of which biomes are over/undersampled, normalized to the total km^2 that biome takes up on earth:
 
 <p align="center">
   <img src="{{ site.github.url }}/assets/img/2026.01.13.lin.png" 
-  width="2000"/>
+  width="80%"/>
 </p>
 
 Something that I've also been thinking about is trying to correlate various indices of socioeconomic development to the SRA as well. I only got a bit of a start on this, but I tried this with the Palma ratio, and the Human Development Index (HDI). Since there are really only country-level estimates for these values, I tried my best to assign each BioSample to a country (which unfortunately excludes the aquatic samples). For the Palma ratio, the lower = more economic equality. For the HDI, the higher the value the more "developed" a country is, taking into account things like education, quality of life.
 
 <p align="center">
   <img src="{{ site.github.url }}/assets/img/pv_images_exportedpv_sampling0002.PNG" 
-  width="2000"/>
+  width="80%"/>
 </p>
 
 <p align="center">
   <img src="{{ site.github.url }}/assets/img/pv_images_exportedpv_sampling0003.PNG" 
-  width="2000"/>
+  width="80%"/>
 </p>
 
 Theoretically, once could probably generate a multi-variable linear regression to explain sequencing distribution over the world :D.
